@@ -9,8 +9,8 @@
 .progressbar{
     background-color: red;
     height: 0.6vh;
-    animation: loading 0.85s ease-in-out forwards;
-}
+    animation: loading 0.80s ease-in-out forwards;
+}   
 
 .logo{
     display: flex;
