@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.move_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.progressbar{
+    background-color: red;
+    height: 0.6vh;
+    animation: loading 0.85s ease-in-out forwards;
+}
+
+.logo{
+    display: flex;
+}

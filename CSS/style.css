@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 13vh;
+    background-color: rgb(8, 8, 42);
+    display: flex;
+    justify-content:flex-start;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Sofia Sans', sans-serif;
+}
+@keyframes loading{
+    0%{
+        width: 0vw;
+    }
+    50%{
+        width: 75vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+.container{
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    align-items: flex-start;
+}
+nav ul li{
+    color: white;
+    padding: 0 23px;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+
