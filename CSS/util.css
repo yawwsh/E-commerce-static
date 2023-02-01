@@ -4,14 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
 }
 .progressbar{
     background-color: red;
-    height: 0.6vh;
+    height: 0.45vh;
     animation: loading 0.80s ease-in-out forwards;
 }   
-
-.logo{
-    display: flex;
-}

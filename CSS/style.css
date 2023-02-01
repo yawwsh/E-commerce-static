@@ -6,9 +6,8 @@
 }
 header{
     height: 13vh;
-    background-color: rgb(8, 8, 42);
-    display: flex;
-    justify-content:flex-start;
+    background-color: rgb(115, 46, 16);
+    font-family: 'Sofia Sans', sans-serif;
 }
 footer{
     height: 10vh;
@@ -30,14 +29,44 @@ footer{
 .container{
     background-color: white;
 }
-nav ul{
+.logo{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    margin-left: auto;
 }
+.logo img{
+    width: 67px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+nav ul{
+    font-size: large;
+    padding: 0 60px;
+    padding-bottom: 20px;
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: -50px;
+}
+
+
+
 nav ul li{
     color: white;
     padding: 0 25px;
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
 }
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
 
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
