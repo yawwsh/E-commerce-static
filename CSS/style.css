@@ -28,9 +28,8 @@ footer{
     }
 }
 .container{
-    background-color: white;
+    min-height: calc(100vh - 58px - 13vh);
 }
-
 .logo{
     display: flex;
     align-items: center;
@@ -81,3 +80,4 @@ nav ul li a:hover{
     font-style: italic;
     font-weight: bolder;
 }
+

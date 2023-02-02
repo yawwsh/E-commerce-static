@@ -10,3 +10,23 @@
     height: 0.45vh;
     animation: loading 0.80s ease-in-out forwards;
 }   
+.banner{
+    font-style: oblique;
+    font-size: large;
+    height: 15vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.banner img {
+    width: 99vw;
+    height: 50vh;
+    border: solid 2mm rgb(92, 92, 14);
+ }
+ .banner p:hover{
+    background-color: rgb(151, 11, 11);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+ }
