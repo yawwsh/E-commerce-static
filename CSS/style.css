@@ -8,6 +8,7 @@ header{
     height: 13vh;
     background-color: rgb(115, 46, 16);
     font-family: 'Sofia Sans', sans-serif;
+    overflow: hidden;
 }
 footer{
     height: 10vh;
@@ -29,11 +30,13 @@ footer{
 .container{
     background-color: white;
 }
+
 .logo{
     display: flex;
     align-items: center;
     margin-left: auto;
 }
+
 .logo img{
     width: 67px;
 }
@@ -45,28 +48,36 @@ nav{
 
 nav ul{
     font-size: large;
-    padding: 0 60px;
-    padding-bottom: 20px;
+    padding: 0 20px;
+    padding-bottom: 200px;
     height: 58px;
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
     margin-top: -50px;
 }
-
-
-
 nav ul li{
     color: white;
-    padding: 0 25px;
+    padding: 0 30px;
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
 }
+.right-options{
+    padding-left: 10px;
+}
+.searchbar {
+    position: relative;
+    top: -45px;
+  }
 nav ul li a{
     color: white;
     text-decoration: none;
 }
-
+nav ul img{
+    height: 45px;
+    width: 50px;
+}
 nav ul li a:hover{ 
+    font-style: italic;
     font-weight: bolder;
 }
