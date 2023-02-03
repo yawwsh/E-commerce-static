@@ -14,7 +14,7 @@ header{
     min-height: calc(100vh - 58px - 13vh);
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color:honeydew;
 }
 footer{
     height: 10vh;
@@ -92,8 +92,10 @@ nav ul li a:hover{
     font-size: large;
     height: 15vh;
     color: white;
-    background-color: rgb(151, 11, 11);
+    background-color:     palevioletred;
     text-align: center;
+        color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* padding-bottom: 15px; */
 }
 .banner img {
@@ -107,11 +109,38 @@ nav ul li a:hover{
     margin-bottom: 15px;
     /* width: 100vw; */
     text-align: center;
-    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: brown;
+    font-weight: 900;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
-.cards{
+ h4{
+    font-size: large;
+    margin-left: 225px;
+    margin-bottom: 15px;
+    width: 66vw;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: brown;
+    color: white;
+    height: 22px;
+ }
+.cards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cards3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cards4{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

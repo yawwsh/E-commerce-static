@@ -12,7 +12,7 @@
 }   
 
  .banner p:hover{
-    background-color: palevioletred;
+    background-color: darkred;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
@@ -24,18 +24,38 @@
     font-style: oblique;
   }
 h3:hover{
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    background-color: brown;
+    background-color: black;
+    font-weight: bolder;
+}
+h4:hover{
+background-color: black;
     font-weight: 900;
 }
 .card-item img{
     border: solid 1mm rosybrown;
     border-radius: 1cm;
 }
+.card-item img:hover{
+    border: solid 1mm black;
+    border-radius: 1cm;
+}
 .small-lines{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 .lines:hover{
     font-weight: bolder;
     font-style:inherit;
+}
+.cards1:hover{
+    background-color:gainsboro;
+}
+.cards2:hover{
+    background-color:gainsboro;
+}
+.cards3:hover{
+    background-color:gainsboro;
+}
+.cards4:hover{
+    background-color:gainsboro;
 }
