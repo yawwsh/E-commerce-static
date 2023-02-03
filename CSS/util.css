@@ -10,23 +10,32 @@
     height: 0.45vh;
     animation: loading 0.80s ease-in-out forwards;
 }   
-.banner{
-    font-style: oblique;
-    font-size: large;
-    height: 15vh;
-    color: white;
-    background-color: black;
-    text-align: center;
-}
-.banner img {
-    width: 99vw;
-    height: 50vh;
-    border: solid 2mm rgb(92, 92, 14);
- }
+
  .banner p:hover{
-    background-color: rgb(151, 11, 11);
+    background-color: palevioletred;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     cursor: pointer;
  }
+ .searchbar:hover{
+    color: black;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+h3:hover{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: brown;
+    font-weight: 900;
+}
+.card-item img{
+    border: solid 1mm rosybrown;
+    border-radius: 1cm;
+}
+.small-lines{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lines:hover{
+    font-weight: bolder;
+    font-style:inherit;
+}
